@@ -6,7 +6,7 @@ resource "aws_vpc" "vpc" {
   enable_dns_hostnames    = true
 
   tags      = {
-    Name    = "Team VPC"
+    Name    = "Team8 VPC"
   }
 }
 
@@ -16,7 +16,7 @@ resource "aws_internet_gateway" "internet-gateway" {
   vpc_id    = aws_vpc.vpc.id
 
   tags      = {
-    Name    = "Team IGW"
+    Name    = "Team8 IGW"
   }
 }
 
